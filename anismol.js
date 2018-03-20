@@ -34,8 +34,8 @@ var draw_scatterplot = function() {
     rect.append("g").attr("transform", "translate(0," + 452 + ")").call(xaxis);
     rect.append("g").attr("transform", "translate("+ padding + ", 0)").call(yaxis);
 
-    rect.append("text").attr("x", width / 2).attr("y", height - 30).attr("dy", "1em").style("text-anchor", "middle").text("Body Weight (kg)");
-    rect.append("text").attr("transform", "rotate(-90)").attr("y", 0).attr("x", 0 - height / 2).attr("dy", "1em").style("text-anchor", "middle").text("Brain Weight (g)");
+    rect.append("text").attr("x", width / 2).attr("y", height - 18).style("text-anchor", "middle").text("Body Weight (kg)");
+    rect.append("text").attr("transform", "rotate(-90)").attr("y", 18).attr("x", 0 - height / 2).style("text-anchor", "middle").text("Brain Weight (g)");
 
 
 }
